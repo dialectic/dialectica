@@ -1,0 +1,9 @@
+atoms:
+  atom_1: []
+  atom_2: [foo]
+  atom_3: []
+
+selections:
+  - selection: []
+    atoms: [atom_1, atom_3]
+    subcategories: [foo]

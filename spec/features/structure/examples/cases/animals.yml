@@ -1,0 +1,59 @@
+atoms:
+  grumpy_cat: [cat, grumpy]
+  cute_cat: [cat, cute]
+  cat_with_tongue: [cat, tongue]
+  dog_with_tongue: [dog, tongue]
+  white_dog_with_tongue: [dog, white, tongue]
+  white_dog: [dog, white]
+  monkey: [monkey]
+  cute_monkey: [monkey, cute]
+  monkey_on_bird: [monkey, bird]
+
+selections:
+  - selection: []
+    atoms: []
+    subcategories: [cat, dog, monkey]
+
+  - selection: [cat]
+    atoms: []
+    subcategories: [cute, grumpy, tongue]
+
+  - selection: [cat, cute]
+    atoms: [cute_cat]
+    subcategories: []
+
+  - selection: [cat, grumpy]
+    atoms: [grumpy_cat]
+    subcategories: []
+
+  - selection: [cat, tongue]
+    atoms: [cat_with_tongue]
+    subcategories: []
+
+  - selection: [dog]
+    atoms: []
+    subcategories: [tongue, white]
+
+  - selection: [dog, tongue]
+    atoms: [dog_with_tongue]
+    subcategories: [white]
+
+  - selection: [dog, tongue, white]
+    atoms: [white_dog_with_tongue]
+    subcategories: []
+
+  - selection: [dog, white]
+    atoms: [white_dog]
+    subcategories: [tongue]
+
+  - selection: [monkey]
+    atoms: [monkey]
+    subcategories: [bird, cute]
+
+  - selection: [monkey, bird]
+    atoms: [monkey_on_bird]
+    subcategories: []
+
+  - selection: [monkey, cute]
+    atoms: [cute_monkey]
+    subcategories: []
